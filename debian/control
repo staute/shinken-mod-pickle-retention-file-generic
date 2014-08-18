@@ -8,14 +8,17 @@ Standards-Version: 3.9.5
 XS-Python-Version: >= 2.5, << 3.0
 Vcs-Git: git://anonscm.debian.org/pkg-shinken/shinken-mod-pickle-retention-file-generic.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-shinken/shinken-mod-pickle-retention-file-generic.git;a=summary
-Homepage: http://shinken.io/package/shinken-mod-pickle-retention-file-generic
+Homepage: http://shinken.io/package/pickle-retention-file-generic
 
 Package: shinken-mod-pickle-retention-file-generic
 Architecture: any
 Depends: ${misc:Depends}, shinken-common
 Breaks: shinken (<< 2~), shinken-common (<< 2~), shinken-core (<< 2~)
-Description: Shinken shinken-mod-pickle-retention-file-generic module
- Module for loading/saving retention data from a flat file (for arbiter & broker)
+Conflicts: shinken-module-retention-picklefile
+Replaces: shinken-module-retention-picklefile
+Description: Shinken pickle-retention-file-generic module
+ Module for loading/saving retention data from a flat file
+ (for arbiter & broker)
  .
  Shinken is a new, Nagios compatible monitoring tool, written in Python. The
  main goal of Shinken is to allow users to have a fully flexible architecture
