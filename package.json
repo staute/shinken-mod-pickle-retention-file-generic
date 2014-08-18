@@ -1,0 +1,25 @@
+{
+  "name": "pickle-retention-file-generic",
+  "types": ["module"],
+  "version": "1.4.1",
+  "homepage": "http://github.com/shinken-monitoring/mod-pickle-retention-file-generic",
+  "author": "Jean Gabès",
+  "description": "Module for loading/saving retention data from a flat file (for arbiter & broker)",
+  "contributors": [
+    {
+      "name": "Jean Gabès",
+      "email": "naparuba@gmail.com"
+    }
+  ],
+  "repository": "https://github.com/shinken-monitoring/mod-pickle-retention-file-generic",
+  "keywords": [
+    "module",
+    "arbiter",
+    "broker",
+    "retention"
+  ],
+  "dependencies": {
+    "shinken": ">=1.4"
+  },
+  "license": "AGPL"
+}
