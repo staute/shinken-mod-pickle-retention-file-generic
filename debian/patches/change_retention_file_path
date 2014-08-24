@@ -1,0 +1,22 @@
+Index: shinken-mod-pickle-retention-file-generic/etc/modules/retention-pickle-arbiter.cfg
+===================================================================
+--- shinken-mod-pickle-retention-file-generic.orig/etc/modules/retention-pickle-arbiter.cfg
++++ shinken-mod-pickle-retention-file-generic/etc/modules/retention-pickle-arbiter.cfg
+@@ -4,5 +4,5 @@
+ define module {
+     module_name     pickle-retention-arbiter
+     module_type     pickle_retention_file_generic
+-    path            /tmp/retention_arbiter.dat
++    path            /var/lib/shinken/retention_arbiter.dat
+ }
+Index: shinken-mod-pickle-retention-file-generic/etc/modules/retention-pickle-broker.cfg
+===================================================================
+--- shinken-mod-pickle-retention-file-generic.orig/etc/modules/retention-pickle-broker.cfg
++++ shinken-mod-pickle-retention-file-generic/etc/modules/retention-pickle-broker.cfg
+@@ -4,5 +4,5 @@
+ define module {
+     module_name     pickle-retention-broker
+     module_type     pickle_retention_file_generic
+-    path            /tmp/retention_broker.dat
++    path            /var/lib/shinken/retention_broker.dat
+ }
