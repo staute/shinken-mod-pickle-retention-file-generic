@@ -11,15 +11,6 @@ Copyright: 2009-2012 Jean Gabes
 License: GNU-AGPL
 
 
-Files:debian/etc/modules/retention-picklefile.cfg
-Copyright: 2009-2012 Jean Gabes
-           2009-2012 Gerhard Lausser
-           2009-2012 Gregory Starck
-           2009-2012 Hartmut Goebel
-           2014 Thibault Cohen
-License: GNU-AGPL
-
-
 Files: debian/*
 Copyright: 2014 Thibault Cohen <titilambert@gmail.com>
            2014 Mathieu Parent <sathieu@debian.org>
