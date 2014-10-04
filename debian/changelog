@@ -1,3 +1,9 @@
+shinken-mod-pickle-retention-file-generic (1.4.1-2) unstable; urgency=medium
+
+  * Architecture: all
+
+ -- Mathieu Parent <sathieu@debian.org>  Sat, 04 Oct 2014 10:25:18 +0200
+
 shinken-mod-pickle-retention-file-generic (1.4.1-1) unstable; urgency=medium
 
   * New upstream version 1.4.1
