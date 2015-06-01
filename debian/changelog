@@ -1,9 +1,16 @@
+shinken-mod-pickle-retention-file-generic (1.4.1-5) unstable; urgency=medium
+
+  [Thibault Cohen]
+  * Add patch to remove useless code in module.py
+
+ -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Mon, 01 Jun 2015 10:39:17 -0400
+
 shinken-mod-pickle-retention-file-generic (1.4.1-4) unstable; urgency=medium
 
   [Sebastien Coavoux]
   * Sync with upstream : Enhance test module
 
- -- Sebastien Coavoux <sebastien.coavoux@savoirfairelinux.com> Wed, 22 Apr 2015 11:26:54 -0400
+ -- Sebastien Coavoux <sebastien.coavoux@savoirfairelinux.com>  Wed, 22 Apr 2015 11:26:54 -0400
 
 shinken-mod-pickle-retention-file-generic (1.4.1-3) unstable; urgency=medium
 
