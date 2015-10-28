@@ -1,0 +1,13 @@
+Index: shinken-mod-pickle-retention-file-generic/etc/modules/retention-pickle-scheduler.cfg
+===================================================================
+--- /dev/null
++++ shinken-mod-pickle-retention-file-generic/etc/modules/retention-pickle-scheduler.cfg
+@@ -0,0 +1,8 @@
++## Module:      PickleRetentionArbiter
++## Loaded by:   Arbiter
++# Retention file to keep state between process restarts.
++define module {
++    module_name     pickle-retention-scheduler
++    module_type     pickle_retention_file_generic
++    path            /var/lib/shinken/retention_sceduler.dat
++}

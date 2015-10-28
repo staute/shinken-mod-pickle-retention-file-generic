@@ -1,0 +1,14 @@
+--- a/module/module.py
++++ b/module/module.py
+@@ -33,11 +33,6 @@
+ from shinken.basemodule import BaseModule
+ from shinken.log import logger
+ 
+-# Hack for making 0.5 retention file load in a 0.6 version
+-# because the commandCall class was moved
+-import shinken
+-from shinken.commandcall import CommandCall
+-shinken.objects.command.CommandCall = CommandCall
+ 
+ properties = {
+     'daemons': ['broker', 'arbiter', 'scheduler'],
